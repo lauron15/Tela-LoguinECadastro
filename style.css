@@ -1,0 +1,38 @@
+body
+{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,217,162,1) 35%, rgba(0,212,255,1) 100%);
+    text-align: center;
+}
+.basicos
+{
+background-color: white;
+text-align: center;
+height: auto;
+width: 400px;
+margin: 10px auto; /* Só com essa margin que nós conseguimos*/
+}
+
+.address
+{
+background-color: white;
+width: 400px;
+align-items: center;
+height: auto;
+margin: 10px auto;
+}
+
+.button
+{
+text-align: center;
+}
+
+button:active /* comando utilizado para mudar a cor da tag button, quando a seleciornarmos.*/
+{
+background-color: green;
+}
+
+footer{
+    text-align: center;
+}
